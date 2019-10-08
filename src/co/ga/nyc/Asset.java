@@ -5,6 +5,8 @@ public class Asset {
     private double shares;
     private double purchasePrice;
 
+    public Asset() { }
+
     public Asset(int id, double shares, double purchasePrice) {
         this.id = id;
         this.shares = shares;
@@ -15,7 +17,6 @@ public class Asset {
         return id;
     }
 
-
     public double getShares() {
         return shares;
     }
@@ -23,8 +24,10 @@ public class Asset {
     public void setShares(double shares) {
         this.shares = shares;
     }
+
     protected double calculateValue(){
         // write some code here
         return 0.0;
     }
+
 }

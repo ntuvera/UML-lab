@@ -7,5 +7,8 @@ public class Commodity extends Asset{
 
     public Commodity(int id, double shares, double purchasePrice) {
         super(id, shares, purchasePrice);
+        this.id = id;
+        this.shares = shares;
+        this.purchasePrice = purchasePrice;
     }
 }

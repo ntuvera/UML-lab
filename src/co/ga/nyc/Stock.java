@@ -10,4 +10,6 @@ public class Stock extends Asset{
         this.id = id;
         this.shares = shares;
         this.purchasePrice = purchasePrice;
-    } }
+    }
+
+}
